@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*******************************
+	For uploading profile pic
+	Designed by:Gopal
+********************************/
+
+.image-upload-wrapper {
+			width: 130px;
+			height: 130px;
+			position: relative;
+			cursor: pointer;
+			overflow: hidden;
+		}
+
+			.image-upload-wrapper form {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: inherit;
+				height: inherit;
+				margin: 0;
+				padding: 0;
+			}
+
+			#image-upload-wrapper .img {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: inherit;
+				height: inherit;
+				z-index: 100;
+				background: #aaa;
+				cursor: pointer;
+			}
+			
+			
+			.image-upload-wrapper .overlay {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+				bottom: 0;
+				color: #FFFFFF;
+				cursor: pointer;
+				left: 0;
+				opacity: 0;
+				padding-bottom: 5px;
+				padding-top: 5px;
+				position: absolute;
+				text-align: center;
+				transition: opacity 0.25s linear 0s;
+				width: inherit;
+				z-index: 101;
+			}
+
+				.image-upload-wrapper:hover .overlay {
+					opacity: 1;
+				}
+
+			.image-upload-wrapper input {
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				min-width: 100%;
+				height: inherit;
+				z-index: 102;
+				opacity: 0;
+				cursor: pointer;
+			}
+
+
+
+
+

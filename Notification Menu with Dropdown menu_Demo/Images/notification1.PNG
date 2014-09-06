@@ -1,0 +1,53 @@
+ual column filtering (text inputs)</a></li>
+							<li><a href="./multi_filter_select.html">Individual column filtering (select
+							inputs)</a></li>
+							<li><a href="./highlight.html">Highlighting rows and columns</a></li>
+							<li><a href="./row_details.html">Child rows (show extra / detailed information)</a></li>
+							<li><a href="./select_row.html">Row selection (multiple rows)</a></li>
+							<li><a href="./select_single_row.html">Row selection and deletion (single row)</a></li>
+							<li><a href="./form.html">Form inputs</a></li>
+							<li><a href="./counter_columns.html">Index column</a></li>
+							<li><a href="./show_hide.html">Show / hide columns dynamically</a></li>
+							<li class="active"><a href="./api_in_init.html">Using API in callbacks</a></li>
+							<li><a href="./tabs_and_scrolling.html">Scrolling and jQuery UI tabs</a></li>
+							<li><a href="./regex.html">Filtering API (regular expressions)</a></li>
+						</ul>
+					</div>
+
+					<div class="toc-group">
+						<h3><a href="../ajax/index.html">Ajax</a></h3>
+						<ul class="toc">
+							<li><a href="../ajax/simple.html">Ajax data source (arrays)</a></li>
+							<li><a href="../ajax/objects.html">Ajax data source (objects)</a></li>
+							<li><a href="../ajax/deep.html">Nested object data (objects)</a></li>
+							<li><a href="../ajax/objects_subarrays.html">Nested object data (arrays)</a></li>
+							<li><a href="../ajax/orthogonal-data.html">Orthogonal data</a></li>
+							<li><a href="../ajax/null_data_source.html">Generated content for a column</a></li>
+							<li><a href="../ajax/custom_data_property.html">Custom data source property</a></li>
+							<li><a href="../ajax/custom_data_flat.html">Flat array data source</a></li>
+							<li><a href="../ajax/defer_render.html">Deferred rendering for speed</a></li>
+						</ul>
+					</div>
+
+					<div class="toc-group">
+						<h3><a href="../server_side/index.html">Server-side</a></h3>
+						<ul class="toc">
+							<li><a href="../server_side/simple.html">Server-side processing</a></li>
+							<li><a href="../server_side/custom_vars.html">Custom HTTP variables</a></li>
+							<li><a href="../server_side/post.html">POST data</a></li>
+							<li><a href="../server_side/ids.html">Automatic addition of row ID attributes</a></li>
+							<li><a href="../server_side/object_data.html">Object data source</a></li>
+							<li><a href="../server_side/row_details.html">Row details</a></li>
+							<li><a href="../server_side/select_rows.html">Row selection</a></li>
+							<li><a href="../server_side/jsonp.html">JSONP data source for remote domains</a></li>
+							<li><a href="../server_side/defer_loading.html">Deferred loading of data</a></li>
+							<li><a href="../server_side/pipeline.html">Pipelining data to reduce Ajax calls for
+							paging</a></li>
+						</ul>
+					</div>
+
+					<div class="toc-group">
+						<h3><a href="../plug-ins/index.html">Plug-ins</a></h3>
+						<ul class="toc">
+							<li><a href="../plug-ins/api.html">API plug-in methods</a></li>
+				

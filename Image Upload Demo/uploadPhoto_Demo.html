@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Image Upload Demo</title>
+	<link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="uploadPhoto.css" rel="stylesheet" type="text/css">
+	
+	<script type="text/javascript" src="jquery-2.1.0.js"></script>
+    <script type="text/javascript">
+	function getImagePreview(input) {
+			
+		if (input.files && input.files[0]) {
+			var filerdr = new FileReader();
+				filerdr.onload = function(e) {
+					$('#imgProfilePic').attr('src', e.target.result);
+				}
+			filerdr.readAsDataURL(input.files[0]);
+			}
+		}
+	</script>
+    
+</head>
+<body>
+	
+	
+	<div class="image-upload-wrapper">
+				<input type="file" name="filUpload" id="imgProfilePic_upload" onchange="getImagePreview(this)" />
+                <img src="no_image.jpg"  id="imgProfilePic" >
+				<div class="overlay" > Upload Photo </div>
+        </div>
+	
+	
+</body>
+</html>

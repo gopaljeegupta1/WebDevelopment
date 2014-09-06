@@ -1,0 +1,605 @@
+@charset "utf-8";
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888888;
+	font-size: 14pt;
+	padding-left: 33px;
+	text-align: left;
+	background-color: transparent;
+	background-image:: url(../images/h1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.heading_text{
+ background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/h1.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #888888;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14pt;
+    font-weight: 200;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 0;
+    padding: 10px 0 0 33px;
+    text-align: left;
+}
+#registration_data {
+	padding: 0px;
+	width: 56%;
+	margin-top: 0px;
+
+}
+
+
+/*form_css*/
+form.register{
+	width: 100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+form.register2{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+form.register1{
+    width:100%;
+    margin: 0px auto 0px auto;
+    background-color:#fff;
+    padding:0px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+form p{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:0px;
+}
+form p1{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:0px;
+	float:right;
+	padding-right:5px;
+}
+form.register fieldset.row1
+{
+	width: 770px;
+	padding: 5px;
+	float: left;
+	margin-bottom: 15px;
+	border: 1px solid #10536b;
+}
+form.register fieldset.row1 label{
+    width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register1 fieldset.row1 label{
+    width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register fieldset.row2
+{
+	padding: 4px;
+	float: left;
+	border: 1px solid #10536b;
+	width:50%;
+}
+
+form.register1 fieldset.row2
+{
+	padding: 4px;
+	float: left;
+	border: 1px solid #10536b;
+	width:752px;
+}
+form.register fieldset.row3
+{
+    border:1px solid #10536b;
+    padding:4px;
+    float:left;
+    width:235px;
+	height:235px;
+}
+form.register fieldset.row4
+{ 
+    border:1px solid #10536b;
+    padding:5px;
+    float:left;
+    width:366px;
+}
+form.register fieldset.row5
+{
+    border:1px solid #10536b;
+    padding:5px;
+    float:left;
+    width:366px;
+}
+form.register fieldset.row6
+{
+    border:1px solid #10536b;
+    padding:5px;
+    float:left;
+    width:235px;
+	height:129px;
+}
+form.register .infobox{
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #F1F1F1;
+	padding: 5px;
+	width: 380px;
+	height: px;
+	font-size: 9px;
+	background-color: #FDFEFA;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.file{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+.file1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:134px;
+	}
+
+.dateField
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+form.register legend
+{
+	font-family:Arial, Helvetica, sans-serif;
+    color: #10536b;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+}
+form.register label{
+    width:90px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+
+form.register label00l{
+    width:105px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register label_big{
+    width:108px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register label_big1{
+    width:124px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register1 label{
+    width:90px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register label1{
+    width:160px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register label3{
+    width:50px;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    margin-top:0px;
+}
+form.register label.optional{
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+    color: #A3A3A3;
+}
+form.register label.obinfo{
+    float:right;
+    padding:3px;
+    font-style:italic;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+form.register input.long005{
+    width: 211px;
+    color: #505050;
+}
+
+form.register input.long01{
+    width: 252px;
+    color: #505050;
+}
+form.register input.long1{
+    width: 85px;
+    color: #505050;
+}
+form.register input.long2{
+    width: 128px;
+    color: #505050;
+}
+form.register input.long3{
+    width: 94px;
+    color: #505050;
+}
+form.register input.short{
+    width: 40px;
+    color: #505050;
+}
+form.register input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+form.register label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:34px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+}
+form.register input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+form.register input[type=text1]
+{
+    border: 1px solid #E1E1E1;
+    height: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+form.register input[type=password]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+form.register input[type=text].year
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+    width:30px;
+}
+form.register input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+.select01
+{
+    border: 1px solid #E1E1E1;
+    width: 214px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+	margin-left:4px;
+}
+
+form.register .student
+{
+    width: 80px;
+	margin-left:4px;
+}
+form.register .student2
+{
+    width: 128px;
+	margin-left:4px;
+}
+form.register .country
+{
+    width: 87px;
+	margin-left:4px;
+	margin:0px;
+	margin-left:4px;
+}
+form.register .zipcode
+{
+    width: 87px;
+	margin-left:4px;
+}
+form.register .zipcode1
+{
+    width: 131px;
+}
+form.register .zipcode2
+{
+    width: 213px;
+}
+form.register select.date
+{
+    width: 40px;
+}
+input:focus, select:focus{
+    background-color: #d6d6d6;
+}
+
+p.info{
+    font-size:7pt;
+    color: gray;
+}
+p.agreement{
+    margin-left:15px;
+}
+p.agreement label{
+    width:390px;
+    text-align:left;
+    margin-top:3px;
+}
+.longtext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border: 1px solid #E1E1E1;
+	color:#505050;
+	width:211px;
+	margin-left:0px;
+	resize:none;
+	height:35px;
+}
+
+/*form register end*/
+.student {
+	font-size: 12px;
+}
+.infobox h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.clear_both
+{
+	clear:both;
+}
+form.register input{
+    float: left;
+    margin-right: 5px;
+}
+
+/*button css starts*/
+input#bigbutton {
+width:80px;
+height:30px;
+background: #3e9cbf; /*the colour of the button*/
+ /*apply some padding inside the button*/
+border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:14px;
+font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #fff;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#bigbutton:hover, input#bigbutton:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+/*button css ends*/
+.row3 table tr td input {
+	margin: 0px;
+	padding: 0px;
+	font-size:12px;
+}
+.register1
+/*fee_category_button_ends here*/table tr td input  {
+	margin: 0px;
+	padding: 0px;
+}
+.register1 tbody tr td input {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*button_CSS_start*/
+.button_main1 {
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 8px 16px;
+	font-size: 12px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.button_main1, .button_main1:hover, .demo-pricing:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.button_main1-1 {
+	background-color: #357ae8;
+	box-shadow: 0px 3px 0px 0px #1254be;
+	width:45px;
+}
+.button_main1-1:hover {
+	background-color: #2965c5;
+}
+.button_main1-1:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+
+
+input#bigbutton {
+width:80px;
+height:30px;
+background: #3e9cbf; /*the colour of the button*/
+ /*apply some padding inside the button*/
+border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:14px;
+font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #fff;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#bigbutton:hover, input#bigbutton:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+/*button_CSS_end*/
+#wrappermiddle form1 {
+	margin: 0px;
+	padding-top: 0px;
+}
+#wrappermiddle form input {
+	margin: 0px;
+	padding: 0px;
+	margin-top:5px;
+}
+#wrappermiddle span {
+	margin: 0px;
+	padding-top:0px;
+	padding: 0px;
+}
+#error_message
+{
+	width: 302px;
+	margin-top: 142px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right:0px;
+
+}
+.error_message1
+{
+	color: #F00;
+}
+#other_login
+{
+	clear:both;
+	width:350px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	padding-top:4px;
+}
+	
+.login1
+{
+	width:120px;
+	padding:0px;
+	padding-right:15px;
+	float:left;
+}
+.text_main1
+{
+	color: #808080;
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 5px 0 0;
+}
+#wrappermiddle h4 {
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 45px;
+	text-align:center;
+}

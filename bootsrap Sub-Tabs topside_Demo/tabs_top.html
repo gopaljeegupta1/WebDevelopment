@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fees Report</title>
+
+<!-- Start CSS By:Negi-->
+	
+    <link href="bootstrap/css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="SHORTCUT ICON" href="Images/favicon.ico" >
+    
+    <!--menu_navigation-->
+	<link href="bootstrap/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/menu_stylesheet.css" rel="stylesheet" type="text/css" />
+	<script src="bootstrap/js/menu.js"  type="text/javascript"></script>
+	
+	<!--menu_navigation ends-->
+
+	<!-- tab_menu_navigation starts-->
+	<link href="bootstrap/chrometheme/chromestyle.css" rel="stylesheet" type="text/css">
+    <script src="bootstrap/chromejs/chrome.js"> type="text/javascript"</script>
+    <!-- tab_menu_navigation ends-->
+    
+<!-- Start CSS By:Negi-->  
+  
+
+<!-- Start bootstrap By:GOPAL-->
+    
+    <!-- Enabling bootstrap-2.3.2 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/bootstrap-2.3.2/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  	<link href="bootstrap/bootstrap-2.3.2/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+    
+    <!-- Enabling bootstrap-3.1.1-dist -->
+    <!--<link href="bootstrap/bootstrap-3.1.1-dist/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap-3.1.1/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="theme" media="screen">-->
+    
+    <!-- Cross Browser CSS -->
+    <link href="bootstrap/css/normalize.css" rel="stylesheet" media="screen" type="text/css">
+    
+    <!-- User Define CSS By GOPAL-->
+    <link href="bootstrap/css/mycss.css" type="text/css" rel="stylesheet" media="screen">
+    
+    <!--Bootstrap Jquery-->
+    <script src="bootstrap/bootstrap-2.3.2/js/bootstrap.js" type="text/javascript"/></script>
+    <script src="bootstrap/bootstrap-3.1.1-dist/js/bootstrap.js" type="text/javascript"/></script>
+    
+    <!--Main Jquery-->
+    <script src="bootstrap/js/jquery-2.1.0.js" type="text/javascript"></script>
+    <script src="bootstrap/js/jquery-1.11.0.js" type="text/javascript"></script>
+    
+<!-- End bootstrap By:GOPAL-->
+
+</head>
+
+<body >
+
+<div class="body_center">
+<!--Start Body-->
+<div class="center">
+
+<!--Start Sub-Tab Menu -->
+<div class="tabbable tabs">
+
+	<!-- Start Tabs  -->  
+	<ul class="nav nav-tabs">
+
+	  <li id="1" class="active"><a href="#tabs-1" data-toggle="tab">Fee Report</a></li>
+      <li id="2" class=""><a href="#tabs-2" data-toggle="tab">Fee Discount</a></li>
+      <li id="3" class=""><a href="#tabs-3" data-toggle="tab">MICR Report</a></li>
+      <li id="4" class=""><a href="#tabs-4" data-toggle="tab">Fee Collection Report</a></li>
+
+	</ul>
+    <!-- End Tabs -->
+    
+    <!-- Start Tab Content -->  
+  	<div class="tab-content">
+    
+    <!-- Start Tab Content 1 -->
+    <div id="tabs-1" class="tab-pane active">
+    
+    
+    </div>	
+    <!-- End Tab Content 1 -->
+    
+    
+    <!-- Start Tab Content 2 -->
+    <div id="tabs-2" class="tab-pane">
+    
+    </div>	
+    <!-- End Tab Content 2 --> 
+    
+    
+    <!-- Start Tab Content 3 -->
+    <div id="tabs-3" class="tab-pane">
+    
+    </div>	
+    <!-- End Tab Content 3 --> 
+    
+    
+    <!-- Start Tab Content 4 -->
+    <div id="tabs-4" class="tab-pane">
+    
+    
+    </div>	
+    <!-- End Tab Content 4 -->  
+    
+    
+    </div>
+    <!-- End Tab Content -->  
+    
+</div>
+<!--End Sub-Tab Menu -->
+
+
+
+
+</div>
+<!--End Body-->
+</div>
+	
+   
+    
+    
+<!-------------------------------------------
+		Start Java Scripts     
+------------------------------------------->
+
+    <!--Start Calender Control for Date Range-->
+    <link href="bootstrap/css/bootstrap-datepicker_range.css" rel="stylesheet" media="screen" >
+	<script src="bootstrap/js/jquery-2.1.0.js"></script>
+    <script src="bootstrap/js/bootstrap-datepicker_range.js"></script>
+    <script type="text/javascript">
+    	// When the document is ready
+        $(document).ready(function () {
+		
+			$('.input-daterange').datepicker({
+            todayBtn: "linked"
+            });
+            
+		});
+	</script>
+    <!--End Calender Control for Date Range-->
+    
+    <!-- Start Enabling Calender Control for DatePicker-->	
+	<link href="bootstrap/css/bootstrap-datetimepicker.min.css" rel="stylesheet" >
+	<!--<script src="bootstrap/js/jquery-2.1.0.js" type="text/javascript" charset="UTF-8"></script>-->
+	<script src="bootstrap/js/bootstrap-datetimepicker.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript">
+    	$('.form_date').datetimepicker({
+        	weekStart: 1,
+	        todayBtn:  1,
+			autoclose: 1,
+			todayHighlight: 1,
+			startView: 2,
+			minView: 2,
+			forceParse: 0
+	    });
+	</script>  
+	<!-- End Enabling Calender Control for DatePicker-->
+    
+    <!--Visible Adv Search Container-->
+	<script>
+	$(document).ready(function(){
+  		$("#adv_search").click(function(){
+    	$("#Adv_search_container").toggle("slow");
+		$('.down_icon').hide();
+		$('.up_icon').show();
+  		});
+	});
+	</script>
+    
+    <!--  Start Pagination -->
+	<script src="bootstrap/js/jquery.twbsPagination.js" type="text/javascript" >
+	</script>
+	<script>
+	$(document).ready(function() 
+    	{ 
+			$('#pagination-demo').twbsPagination({
+       		totalPages: 35,
+       		visiblePages: 5,
+			startPage:1,
+			<!--href: '?page={{number}}',-->
+        	onPageClick: function (event, page) {
+			$('#page-content').text('Page Showing ' + page + ' of 35 ');
+    	    }
+	    	});
+		    } 
+		); 
+</script>
+	<!--  End Pagination -->  
+
+
+
+<!-------------------------------------------
+		End Java Scripts     
+------------------------------------------->  
+
+
+
+</body>
+</html>

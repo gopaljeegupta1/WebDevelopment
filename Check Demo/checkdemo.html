@@ -1,0 +1,50 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+
+<div id="click_check">
+<input id="checkbox1" type="checkbox" />
+<input id="checkbox2" type="checkbox" />
+<input id="checkbox3" type="checkbox" />
+</div>
+
+<span style='display:none' id="foreign1">Click Me1</span> 	<br />
+<span style='display:none' id="foreign2">Click Me2</span>	<br />
+<span style='display:none' id="foreign3">Click Me3</span>	<br />
+
+
+
+<script src="jquery-2.1.0.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $("#click_check").click(function() {
+            if($('#checkbox1').is(':checked')) { 
+                $('#foreign1').show();
+            }
+			else if($('#checkbox2').is(':checked')) { 
+                $('#foreign2').show();
+            }
+			else if($('#checkbox3').is(':checked')) { 
+                $('#foreign3').show();
+            }
+			 else {
+                $('#foreign1').hide();
+				$('#foreign2').hide();
+				$('#foreign3').hide();
+            }
+        });
+
+        /*$('#click_check').click(function() {
+            alert('This click function works');
+        });*/
+    });
+</script>
+
+
+</body>
+</html>

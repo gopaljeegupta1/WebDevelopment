@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* This CSS Document designed for 
+	External Events panel purpose for Calender Control Widget
+	Designed by: Gopal Jee Gupta
+	Date: 28 June 2014
+	Organization: Holistic Education Private Limited. */
+
+
+
+	.wrap {
+		width: 1100px;
+		margin: 0 auto;
+	}
+		
+	.external-events {
+		/*float: left;
+		width: 150px;
+		padding: 0 10px;
+		border: 1px solid #ccc;
+		background: #eee;
+		text-align: left;
+		border-radius:5px;*/
+		
+	}
+		
+	.external-events h4 {
+		font-size: 16px;
+		margin-top: 0;
+		padding-top: 1em;
+	}
+		
+	.external-event:hover { /* try to mimick the look of a real event */
+		margin: 10px 0;
+		padding: 2px 4px;
+		background: #f8f8d1;
+		color: #000;
+		font-size: .85em;
+		cursor: pointer;
+		
+	}
+	
+	.external-event { /* try to mimick the look of a real event */
+		margin: 10px 0;
+		padding: 2px 4px;
+		background: #dddddd;
+		color: #000;
+		font-size: .85em;
+		cursor: pointer;
+		border: 1px solid #ccc;
+	}
+		
+	.external-events p {
+		margin: 1.5em 0;
+		font-size: 11px;
+		color: #666;
+	}
+		
+	.external-events p input {
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	.calendar {
+		float: right;
+		width: 100%;
+	}
+	
+	
+
+
+/*************************************
+For Calendar Design
+**************************************/
+
+.cal_panelLeft{
+	width:15%;
+	/*background:#066;*/
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	margin:5px;
+	padding:5px;
+	border:1px solid #dbeaf9;
+}
+.cal_panelCenter{
+	width:70%;
+	/*background:#CCC;*/
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	margin:5px;
+	padding:5px;	
+}
+.cal_panelRight{
+	width:10%;
+	background:#c4c4c7;
+	margin-left:auto;
+	margin-right:auto;
+	float:right;
+	margin:5px;
+	padding:5px;
+}
+
+.cal_panelLeft01{
+	background: none repeat scroll 0 0 #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.accordion_Heading{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #ccc;
+}
+.accordion_Body{
+   /* background: none repeat scroll 0 0 #eee;*/
+    border: 1px solid #ccc;
+}
+
+
+
+/*********************
+For TimeTable Design
+**********************/
+.time_tTheadfirst{
+	background-color:#333333;  /*#eee*/
+	color:#7d7d7d;
+}
+.time_tThead{
+	background-color:#b2b2b2;  /*#eee*/
+	/*color:#7d7d7d;*/
+}
+.time_tdfirst{
+	background-color:#eee;  /*#b2b2b2*/
+}
+
+.time_leftPanel{
+	width:20%;
+}
+.time_rightPanel{
+	width:20%;
+}
+.time_panelLeft{
+	width:15%;
+	/*background:#066;*/
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	margin:5px;
+	padding:5px;
+	border:1px solid #dbeaf9;
+}
+.time_panelRight{
+	width:80%;
+	/*background:#CCC;*/
+	margin-left:auto;
+	margin-right:auto;
+	float:right;
+	/*margin:5px;*/
+	padding:5px;	
+}
+
+
+.time_subjectCode{
+	/*background: none repeat scroll 0 0 #dddddd;
+    border: 5px solid #ccc;
+    height: 20%;
+    padding: 10px;
+    text-align: center;
+    width: 8%;*/
+	border: 1px solid goldenrod;
+    text-align: center;
+    width: 100%;
+}
+.time_subjectlabel1{
+	background-color: #999999;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 2px 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.time_subjectlabel2{
+	background-color: #999999;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 2px 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+/*.circle-tile-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    padding: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.circle-tile-footer:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}*/

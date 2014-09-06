@@ -1,0 +1,103 @@
+       if (lineNumber == 0)
+            classes.push('break');
+
+        return '<div class="' + classes.join(' ') + '">' + code + '</div>';
+    },
+
+    /**
+     * Generates HTML markup for line number column.
+     * @param {String} code         Complete code HTML markup.
+     * @param {Array} lineNumbers   Calculated line numbers.
+     * @return {String}             Returns HTML markup.
+     */
+    getLineNumbersHtml: function(code, lineNumbers)
+    {
+        var html = '',
+            count = splitLines(code).length,
+            firstLine = parseInt(this.getParam('first-line')),
+            pad = this.getParam('pad-line-numbers')
+            ;
+
+        if (pad == true)
+            pad = (firstLine + count - 1).toString().length;
+        else if (isNaN(pad) == true)
+            pad = 0;
+
+        for (var i = 0; i < count; i++)
+        {
+            var lineNumber = lineNumbers ? lineNumbers[i] : firstLine + i,
+                code = lineNumber == 0 ? sh.config.space : padNumber(lineNumber, pad)
+                ;
+
+            html += this.getLineHtml(i, lineNumber, code);
+        }
+
+        return html;
+    },
+
+    /**
+     * Splits block of text into individual DIV lines.
+     * @param {String} code         Code to highlight.
+     * @param {Array} lineNumbers   Calculated line numbers.
+     * @return {String}             Returns highlighted code in HTML form.
+     */
+    getCodeLinesHtml: function(html, lineNumbers)
+    {
+        html = trim(html);
+
+        var lines = splitLines(html),
+            padLength = this.getParam('pad-line-numbers'),
+            firstLine = parseInt(this.getParam('first-line')),
+            html = '',
+            brushName = this.getParam('brush')
+            ;
+
+        for (var i = 0, l = lines.length; i < l; i++)
+        {
+            var line = lines[i],
+                indent = /^(&nbsp;|\s)+/.exec(line),
+                spaces = null,
+                lineNumber = lineNumbers ? lineNumbers[i] : firstLine + i;
+                ;
+
+            if (indent != null)
+            {
+                spaces = indent[0].toString();
+                line = line.substr(spaces.length);
+                spaces = spaces.replace(' ', sh.config.space);
+            }
+
+            line = trim(line);
+
+            if (line.length == 0)
+                line = sh.config.space;
+
+            html += this.getLineHtml(
+                i,
+                lineNumber,
+                (spaces != null ? '<code class="' + brushName + ' spaces">' + spaces + '</code>' : '') + line
+            );
+        }
+
+        return html;
+    },
+
+    /**
+     * Returns HTML for the table title or empty string if title is null.
+     */
+    getTitleHtml: function(title)
+    {
+        return title ? '<caption>' + title + '</caption>' : '';
+    },
+
+    /**
+     * Finds all matches in the source code.
+     * @param {String} code     Source code to process matches in.
+     * @param {Array} matches   Discovered regex matches.
+     * @return {String} Returns formatted HTML with processed mathes.
+     */
+    getMatchesHtml: function(code, matches)
+    {
+        var pos = 0,
+            result = '',
+            brushName = this.getParam('b
